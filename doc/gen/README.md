@@ -1,6 +1,6 @@
 # PCB
 
-Board size: 91.1x58.5 mm (3.59x2.3 inches)
+Board size: 86.4x49.0 mm (3.4x1.93 inches)
 
 - This is the size of the rectangle that contains the board
 - Thickness: 1.6 mm (63 mils)
@@ -65,7 +65,7 @@ Eurocircuits class: 4A
 
 Components count: (SMD/THT)
 
-- Top: 20/1 (SMD + THT)
+- Top: 17/1 (SMD + THT)
 - Bottom: 0/0 (NONE)
 
 Defined tracks:
@@ -105,7 +105,7 @@ The stencil thickness is  0.12 mm.
 
 | Side   | Pads with paste | Area [mm²] | Paste [g] |
 |--------|-----------------|------------|-----------|
-| Total  |              59 |      59.19 |      0.29 |
+| Total  |              52 |      53.46 |      0.27 |
 
 Note: this is just an approximation to the theoretical value. Margins of the solder mask and waste aren't computed.
 
