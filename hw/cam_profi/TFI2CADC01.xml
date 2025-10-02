@@ -2,7 +2,7 @@
 <export version="E">
   <design>
     <source>/github/workspace/hw/sch_pcb/TFI2CADC01.kicad_sch</source>
-    <date>2025-10-02T16:50:45+0000</date>
+    <date>2025-10-02T18:08:32+0000</date>
     <tool>Eeschema 9.0.1+1</tool>
     <sheet number="1" name="/" tstamps="/">
       <title_block>
@@ -387,6 +387,22 @@
       <sheetpath names="/" tstamps="/"/>
       <tstamps>fef1c0ce-f6ad-40a9-98a5-30b1954d3496</tstamps>
     </comp>
+    <comp ref="TP1">
+      <value>TestPoint</value>
+      <description>test point</description>
+      <fields>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description">test point</field>
+      </fields>
+      <libsource lib="Connector" part="TestPoint" description="test point"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="TFI2CADC01.kicad_sch"/>
+      <property name="ki_keywords" value="test point tp"/>
+      <property name="ki_fp_filters" value="Pin* Test*"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>5afb99d0-8367-4fde-a4ba-0b073331cec3</tstamps>
+    </comp>
     <comp ref="U1">
       <value>MIC5504-3.3YM5</value>
       <footprint>Package_TO_SOT_SMD:SOT-23-5</footprint>
@@ -706,6 +722,7 @@
     <net code="8" name="/ALERT/RDY" class="Default">
       <node ref="D3" pin="1" pinfunction="K" pintype="passive"/>
       <node ref="J2" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="TP1" pin="1" pinfunction="1" pintype="passive"/>
       <node ref="U3" pin="2" pinfunction="ALERT/RDY" pintype="output"/>
     </net>
     <net code="9" name="/SCL" class="Default">
