@@ -6,9 +6,9 @@ Component,Description,Part,References,Value,Footprint,Quantity Per PCB,Datasheet
 5,Light emitting diode,LED,D1,LED GREEN,LED_1206_mill,1,~,60d582331287500165f859d0
 6,Light emitting diode,LED,D3,LED ORANGE,LED_1206_mill,1,~,60d582331287500165f859d0
 7,"Generic connector, single row, 01x05, script generated",Conn_01x05_Pin,J1,Conn_01x05_Pin,PinHeader_1x05_P2.54mm_Horizontal,1,~,
-8,,SM04B-GHS-TB,J4J5,SM04B-GHS-TB,JST_GH_SM04B-GHS-TB_1x04-1MP_P1.25mm_Horizontal,2,,5c86273d1287500b4e0280be
-9,,SMD_JUMPER_2,JP2,0x4A,SolderJumper-2_P1.3mm_Open_TrianglePad1.0x1.5mm,1,,
-10,,SMD_JUMPER_2,JP3,0x4B,SolderJumper-2_P1.3mm_Open_TrianglePad1.0x1.5mm,1,,
+8,,SM04B-GHS-TB,J5J6,SM04B-GHS-TB,JST_GH_SM04B-GHS-TB_1x04-1MP_P1.25mm_Horizontal,2,,5c86273d1287500b4e0280be
+9,,SMD_JUMPER_2,JP3,0x4A,SolderJumper-2_P1.3mm_Open_Pad1.0x1.5mm,1,,
+10,,SMD_JUMPER_2,JP4,0x4B,SolderJumper-2_P1.3mm_Open_Pad1.0x1.5mm,1,,
 11,Resistor,R,R1,180R,R_0603_1608Metric,1,~,5c70984512875079b91f8957
 12,Resistor,R,R4,4k7,SMD-0603,1,~,5c70984512875079b91f8962
 13,Resistor,R,R2R3,10k,SMD-0603,2,~,5c70984512875079b91f8962
