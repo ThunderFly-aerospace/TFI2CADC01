@@ -2850,6 +2850,12 @@
 		(uuid "25b68d84-ccb2-4507-a47e-5167d068e542")
 	)
 	(junction
+		(at 144.78 107.95)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "29769478-d244-41d3-a6db-b3d687bd1498")
+	)
+	(junction
 		(at 113.03 152.4)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -2976,6 +2982,16 @@
 			(type default)
 		)
 		(uuid "069d3ccf-4970-4da5-87cd-ec81801ce1af")
+	)
+	(wire
+		(pts
+			(xy 144.78 107.95) (xy 149.86 107.95)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "073379d3-19c5-4a44-a629-3685af96bda4")
 	)
 	(wire
 		(pts
@@ -3329,7 +3345,7 @@
 	)
 	(wire
 		(pts
-			(xy 124.46 107.95) (xy 149.86 107.95)
+			(xy 124.46 107.95) (xy 144.78 107.95)
 		)
 		(stroke
 			(width 0)
@@ -3456,6 +3472,16 @@
 			(type solid)
 		)
 		(uuid "ae9cb48e-a629-4617-a7f4-396c4f451f2b")
+	)
+	(wire
+		(pts
+			(xy 144.78 101.6) (xy 144.78 107.95)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b54cbb96-1e39-49ef-8899-07317a979328")
 	)
 	(wire
 		(pts
@@ -5749,6 +5775,73 @@
 			(project "TFI2CADC01"
 				(path "/6fb6882a-7dc1-405c-817c-bb67bd492583"
 					(reference "U3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 144.78 101.6 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "5afb99d0-8367-4fde-a4ba-0b073331cec3")
+		(property "Reference" "TP1"
+			(at 146.177 97.0858 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "TestPoint"
+			(at 146.177 99.5101 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 149.86 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 149.86 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "test point"
+			(at 144.78 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "43e50da8-2fac-482b-930c-95673fa6aa2f")
+		)
+		(instances
+			(project ""
+				(path "/6fb6882a-7dc1-405c-817c-bb67bd492583"
+					(reference "TP1")
 					(unit 1)
 				)
 			)
