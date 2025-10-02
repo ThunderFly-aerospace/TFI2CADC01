@@ -2,7 +2,7 @@
 <export version="E">
   <design>
     <source>/github/workspace/hw/sch_pcb/TFI2CADC01.kicad_sch</source>
-    <date>2025-10-02T15:42:09+0000</date>
+    <date>2025-10-02T16:12:24+0000</date>
     <tool>Eeschema 9.0.1+1</tool>
     <sheet number="1" name="/" tstamps="/">
       <title_block>
@@ -200,7 +200,7 @@
       <sheetpath names="/" tstamps="/"/>
       <tstamps>267971df-6eda-4cb3-910a-73b442708bb5</tstamps>
     </comp>
-    <comp ref="J2">
+    <comp ref="J4">
       <value>SM04B-GHS-TB</value>
       <footprint>Connector_JST:JST_GH_SM04B-GHS-TB_1x04-1MP_P1.25mm_Horizontal</footprint>
       <fields>
@@ -216,9 +216,9 @@
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="TFI2CADC01.kicad_sch"/>
       <sheetpath names="/" tstamps="/"/>
-      <tstamps>00000000-0000-0000-0000-00005deb9c07</tstamps>
+      <tstamps>b46f826a-e2ab-48a8-9f50-e7b8f9994ea3 00000000-0000-0000-0000-00005deb9c07</tstamps>
     </comp>
-    <comp ref="J3">
+    <comp ref="J5">
       <value>SM04B-GHS-TB</value>
       <footprint>Connector_JST:JST_GH_SM04B-GHS-TB_1x04-1MP_P1.25mm_Horizontal</footprint>
       <fields>
@@ -236,24 +236,7 @@
       <sheetpath names="/" tstamps="/"/>
       <tstamps>cb19bc52-bc73-4faa-b1b5-9d6fa377e0e1</tstamps>
     </comp>
-    <comp ref="J4">
-      <value>ALERT/RDY</value>
-      <footprint>TestPoint:TestPoint_Keystone_5015_Micro_Mini</footprint>
-      <description>test point</description>
-      <fields>
-        <field name="Footprint">TestPoint:TestPoint_Keystone_5015_Micro_Mini</field>
-        <field name="Datasheet"/>
-        <field name="Description">test point</field>
-      </fields>
-      <libsource lib="Connector" part="TestPoint" description="test point"/>
-      <property name="Sheetname" value=""/>
-      <property name="Sheetfile" value="TFI2CADC01.kicad_sch"/>
-      <property name="ki_keywords" value="test point tp"/>
-      <property name="ki_fp_filters" value="Pin* Test*"/>
-      <sheetpath names="/" tstamps="/"/>
-      <tstamps>b46f826a-e2ab-48a8-9f50-e7b8f9994ea3</tstamps>
-    </comp>
-    <comp ref="JP5">
+    <comp ref="JP1">
       <value>AddresSelect</value>
       <footprint>Jumper:SolderJumper-3_P1.3mm_Bridged12_Pad1.0x1.5mm_NumberLabels</footprint>
       <description>Jumper, 3-pole, pins 1+2 closed/bridged</description>
@@ -270,6 +253,34 @@
       <property name="ki_fp_filters" value="Jumper* TestPoint*3Pads* TestPoint*Bridge*"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamps>141e2b1c-1997-41cb-a74f-b9f008338f76</tstamps>
+    </comp>
+    <comp ref="JP2">
+      <value>0x4A</value>
+      <footprint>Jumper:SolderJumper-2_P1.3mm_Open_TrianglePad1.0x1.5mm</footprint>
+      <fields>
+        <field name="Footprint">Jumper:SolderJumper-2_P1.3mm_Open_TrianglePad1.0x1.5mm</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="" part="SMD_JUMPER_2" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="TFI2CADC01.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>1b00a631-55d1-4099-8869-c71fa97eb3cc</tstamps>
+    </comp>
+    <comp ref="JP3">
+      <value>0x4B</value>
+      <footprint>Jumper:SolderJumper-2_P1.3mm_Open_TrianglePad1.0x1.5mm</footprint>
+      <fields>
+        <field name="Footprint">Jumper:SolderJumper-2_P1.3mm_Open_TrianglePad1.0x1.5mm</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="" part="SMD_JUMPER_2" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="TFI2CADC01.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>ad5a4407-a82a-4458-8aa4-e26dc5fee6a8</tstamps>
     </comp>
     <comp ref="R1">
       <value>180R</value>
@@ -392,6 +403,19 @@
     </comp>
   </components>
   <libparts>
+    <libpart lib="" part="SMD_JUMPER_2">
+      <fields>
+        <field name="Reference">JP</field>
+        <field name="Value">SMD_JUMPER_2</field>
+        <field name="Footprint">e-radionica.com footprinti:SMD_JUMPER</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="passive"/>
+        <pin num="2" name="" type="passive"/>
+      </pins>
+    </libpart>
     <libpart lib="Analog_ADC" part="ADS1115IDGS">
       <description>Ultra-Small, Low-Power, I2C-Compatible, 860-SPS, 16-Bit ADCs With Internal Reference, Oscillator, and Programmable Comparator, VSSOP-10</description>
       <docs>http://www.ti.com/lit/ds/symlink/ads1113.pdf</docs>
@@ -437,24 +461,6 @@
         <pin num="3" name="Pin_3" type="passive"/>
         <pin num="4" name="Pin_4" type="passive"/>
         <pin num="5" name="Pin_5" type="passive"/>
-      </pins>
-    </libpart>
-    <libpart lib="Connector" part="TestPoint">
-      <description>test point</description>
-      <docs>~</docs>
-      <footprints>
-        <fp>Pin*</fp>
-        <fp>Test*</fp>
-      </footprints>
-      <fields>
-        <field name="Reference">TP</field>
-        <field name="Value">TestPoint</field>
-        <field name="Footprint"/>
-        <field name="Datasheet">~</field>
-        <field name="Description">test point</field>
-      </fields>
-      <pins>
-        <pin num="1" name="1" type="passive"/>
       </pins>
     </libpart>
     <libpart lib="Device" part="C">
@@ -612,7 +618,7 @@
       <node ref="C3" pin="1" pintype="passive"/>
       <node ref="C4" pin="1" pintype="passive"/>
       <node ref="C5" pin="1" pintype="passive"/>
-      <node ref="JP5" pin="3" pinfunction="B" pintype="passive"/>
+      <node ref="JP1" pin="3" pinfunction="B" pintype="passive"/>
       <node ref="R2" pin="1" pintype="passive"/>
       <node ref="R3" pin="1" pintype="passive"/>
       <node ref="R4" pin="2" pintype="passive"/>
@@ -623,14 +629,16 @@
       <node ref="C1" pin="1" pintype="passive"/>
       <node ref="C2" pin="1" pintype="passive"/>
       <node ref="D2" pin="1" pinfunction="K" pintype="passive"/>
-      <node ref="J2" pin="1" pintype="input"/>
-      <node ref="J3" pin="1" pintype="input"/>
+      <node ref="J4" pin="1" pintype="input"/>
+      <node ref="J5" pin="1" pintype="input"/>
       <node ref="R1" pin="1" pintype="passive"/>
       <node ref="U1" pin="1" pinfunction="VIN" pintype="power_in"/>
       <node ref="U1" pin="3" pinfunction="EN" pintype="input"/>
     </net>
     <net code="3" name="/ADDR" class="Default">
-      <node ref="JP5" pin="1" pinfunction="A" pintype="passive"/>
+      <node ref="JP1" pin="1" pinfunction="A" pintype="passive"/>
+      <node ref="JP2" pin="1" pintype="passive"/>
+      <node ref="JP3" pin="1" pintype="passive"/>
       <node ref="U3" pin="1" pinfunction="ADDR" pintype="input"/>
     </net>
     <net code="4" name="/AIN0" class="Default">
@@ -655,14 +663,16 @@
       <node ref="U3" pin="2" pinfunction="ALERT/RDY" pintype="output"/>
     </net>
     <net code="9" name="/SCL" class="Default">
-      <node ref="J2" pin="2" pintype="input"/>
-      <node ref="J3" pin="2" pintype="input"/>
+      <node ref="J4" pin="2" pintype="input"/>
+      <node ref="J5" pin="2" pintype="input"/>
+      <node ref="JP3" pin="2" pintype="passive"/>
       <node ref="R2" pin="2" pintype="passive"/>
       <node ref="U3" pin="10" pinfunction="SCL" pintype="input"/>
     </net>
     <net code="10" name="/SDA" class="Default">
-      <node ref="J2" pin="3" pintype="input"/>
-      <node ref="J3" pin="3" pintype="input"/>
+      <node ref="J4" pin="3" pintype="input"/>
+      <node ref="J5" pin="3" pintype="input"/>
+      <node ref="JP2" pin="2" pintype="passive"/>
       <node ref="R3" pin="2" pintype="passive"/>
       <node ref="U3" pin="9" pinfunction="SDA" pintype="bidirectional"/>
     </net>
@@ -675,11 +685,11 @@
       <node ref="D1" pin="1" pinfunction="K" pintype="passive"/>
       <node ref="D2" pin="2" pinfunction="A" pintype="passive"/>
       <node ref="J1" pin="1" pinfunction="Pin_1" pintype="passive"/>
-      <node ref="J2" pin="4" pintype="input"/>
-      <node ref="J2" pin="MP" pintype="input"/>
-      <node ref="J3" pin="4" pintype="input"/>
-      <node ref="J3" pin="MP" pintype="input"/>
-      <node ref="JP5" pin="2" pinfunction="C" pintype="passive"/>
+      <node ref="J4" pin="4" pintype="input"/>
+      <node ref="J4" pin="MP" pintype="input"/>
+      <node ref="J5" pin="4" pintype="input"/>
+      <node ref="J5" pin="MP" pintype="input"/>
+      <node ref="JP1" pin="2" pinfunction="C" pintype="passive"/>
       <node ref="U1" pin="2" pinfunction="GND" pintype="power_in"/>
       <node ref="U3" pin="3" pinfunction="GND" pintype="power_in"/>
     </net>
