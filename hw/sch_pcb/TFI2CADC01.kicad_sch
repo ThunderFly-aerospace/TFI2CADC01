@@ -2789,7 +2789,7 @@
 	)
 	(wire
 		(pts
-			(xy 41.91 104.14) (xy 46.99 104.14)
+			(xy 45.72 107.95) (xy 50.8 107.95)
 		)
 		(stroke
 			(width 0)
@@ -2979,7 +2979,7 @@
 	)
 	(wire
 		(pts
-			(xy 46.99 114.3) (xy 41.91 114.3)
+			(xy 50.8 118.11) (xy 45.72 118.11)
 		)
 		(stroke
 			(width 0)
@@ -3179,7 +3179,7 @@
 	)
 	(wire
 		(pts
-			(xy 41.91 106.68) (xy 46.99 106.68)
+			(xy 45.72 110.49) (xy 50.8 110.49)
 		)
 		(stroke
 			(width 0)
@@ -3359,7 +3359,7 @@
 	)
 	(wire
 		(pts
-			(xy 41.91 111.76) (xy 46.99 111.76)
+			(xy 45.72 115.57) (xy 50.8 115.57)
 		)
 		(stroke
 			(width 0)
@@ -3509,7 +3509,7 @@
 	)
 	(wire
 		(pts
-			(xy 41.91 109.22) (xy 46.99 109.22)
+			(xy 45.72 113.03) (xy 50.8 113.03)
 		)
 		(stroke
 			(width 0)
@@ -3568,7 +3568,7 @@
 		(uuid "ff123c45-680e-4599-bbe5-58027a3741dd")
 	)
 	(label "AIN1"
-		(at 41.91 106.68 180)
+		(at 45.72 110.49 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3608,7 +3608,7 @@
 		(uuid "5221875b-c3cb-4c4f-b6c6-fcb79bc0accc")
 	)
 	(label "AIN2"
-		(at 41.91 109.22 180)
+		(at 45.72 113.03 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3638,7 +3638,7 @@
 		(uuid "8d4250bb-fad5-442b-b7c0-fcdb2bc817ef")
 	)
 	(label "AIN3"
-		(at 41.91 111.76 180)
+		(at 45.72 115.57 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3768,7 +3768,7 @@
 		(uuid "eedca0a5-a6ef-41da-8cce-a98005eb7d39")
 	)
 	(label "AIN0"
-		(at 41.91 104.14 180)
+		(at 45.72 107.95 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4765,7 +4765,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "00000000-0000-0000-0000-00005deb9c07")
-		(property "Reference" "J4"
+		(property "Reference" "J5"
 			(at 224.2312 101.3714 0)
 			(effects
 				(font
@@ -4844,7 +4844,7 @@
 		(instances
 			(project "TFI2CADC01"
 				(path "/6fb6882a-7dc1-405c-817c-bb67bd492583"
-					(reference "J4")
+					(reference "J5")
 					(unit 1)
 				)
 			)
@@ -5074,7 +5074,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "141e2b1c-1997-41cb-a74f-b9f008338f76")
-		(property "Reference" "JP1"
+		(property "Reference" "JP2"
 			(at 119.38 149.098 0)
 			(effects
 				(font
@@ -5130,7 +5130,7 @@
 		(instances
 			(project "TFI2CADC01"
 				(path "/6fb6882a-7dc1-405c-817c-bb67bd492583"
-					(reference "JP1")
+					(reference "JP2")
 					(unit 1)
 				)
 			)
@@ -5146,7 +5146,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "1b00a631-55d1-4099-8869-c71fa97eb3cc")
-		(property "Reference" "JP2"
+		(property "Reference" "JP3"
 			(at 119.38 164.465 0)
 			(effects
 				(font
@@ -5163,7 +5163,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Jumper:SolderJumper-2_P1.3mm_Open_TrianglePad1.0x1.5mm"
+		(property "Footprint" "Jumper:SolderJumper-2_P1.3mm_Open_Pad1.0x1.5mm"
 			(at 119.38 166.37 0)
 			(effects
 				(font
@@ -5198,7 +5198,7 @@
 		(instances
 			(project "TFI2CADC01"
 				(path "/6fb6882a-7dc1-405c-817c-bb67bd492583"
-					(reference "JP2")
+					(reference "JP3")
 					(unit 1)
 				)
 			)
@@ -5404,7 +5404,7 @@
 	)
 	(symbol
 		(lib_id "Connector:Conn_01x05_Pin")
-		(at 52.07 109.22 180)
+		(at 55.88 113.03 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -5413,7 +5413,7 @@
 		(fields_autoplaced yes)
 		(uuid "267971df-6eda-4cb3-910a-73b442708bb5")
 		(property "Reference" "J1"
-			(at 53.34 107.9499 0)
+			(at 57.15 111.7599 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5422,7 +5422,7 @@
 			)
 		)
 		(property "Value" "Conn_01x05_Pin"
-			(at 53.34 110.4899 0)
+			(at 57.15 114.2999 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5431,7 +5431,7 @@
 			)
 		)
 		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x05_P2.54mm_Horizontal"
-			(at 52.07 109.22 0)
+			(at 55.88 113.03 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5440,7 +5440,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 52.07 109.22 0)
+			(at 55.88 113.03 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5449,7 +5449,7 @@
 			)
 		)
 		(property "Description" "Generic connector, single row, 01x05, script generated"
-			(at 52.07 109.22 0)
+			(at 55.88 113.03 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6047,12 +6047,12 @@
 		(lib_id "e-radionica.com schematics:SMD_JUMPER")
 		(at 119.38 175.26 0)
 		(unit 1)
-		(exclude_from_sim no)
+		(exclude_from_sim yes)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(uuid "ad5a4407-a82a-4458-8aa4-e26dc5fee6a8")
-		(property "Reference" "JP3"
+		(property "Reference" "JP4"
 			(at 119.38 173.355 0)
 			(effects
 				(font
@@ -6069,7 +6069,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Jumper:SolderJumper-2_P1.3mm_Open_TrianglePad1.0x1.5mm"
+		(property "Footprint" "Jumper:SolderJumper-2_P1.3mm_Open_Pad1.0x1.5mm"
 			(at 119.38 175.26 0)
 			(effects
 				(font
@@ -6104,7 +6104,7 @@
 		(instances
 			(project "TFI2CADC01"
 				(path "/6fb6882a-7dc1-405c-817c-bb67bd492583"
-					(reference "JP3")
+					(reference "JP4")
 					(unit 1)
 				)
 			)
@@ -6246,7 +6246,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 41.91 114.3 0)
+		(at 45.72 118.11 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -6254,7 +6254,7 @@
 		(dnp no)
 		(uuid "c16941a3-e132-4187-b384-8a3af638980c")
 		(property "Reference" "#PWR02"
-			(at 41.91 120.65 0)
+			(at 45.72 124.46 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6263,7 +6263,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 42.037 118.6942 0)
+			(at 45.847 122.5042 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6272,7 +6272,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 41.91 114.3 0)
+			(at 45.72 118.11 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6281,7 +6281,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 41.91 114.3 0)
+			(at 45.72 118.11 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6290,7 +6290,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 41.91 114.3 0)
+			(at 45.72 118.11 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6382,7 +6382,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "cb19bc52-bc73-4faa-b1b5-9d6fa377e0e1")
-		(property "Reference" "J5"
+		(property "Reference" "J6"
 			(at 263.6012 101.3714 0)
 			(effects
 				(font
@@ -6461,7 +6461,7 @@
 		(instances
 			(project "TFI2CADC01"
 				(path "/6fb6882a-7dc1-405c-817c-bb67bd492583"
-					(reference "J5")
+					(reference "J6")
 					(unit 1)
 				)
 			)
