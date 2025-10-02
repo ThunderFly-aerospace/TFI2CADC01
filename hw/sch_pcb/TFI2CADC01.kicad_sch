@@ -2090,6 +2090,93 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "SMD_JUMPER_2"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "JP"
+				(at 0 1.397 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "SMD_JUMPER_2"
+				(at 0 -2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" "e-radionica.com footprinti:SMD_JUMPER"
+				(at 0 -5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "SMD_JUMPER_2_1_1"
+				(pin passive inverted
+					(at -3.81 0 0)
+					(length 2.54)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive inverted
+					(at 3.81 0 180)
+					(length 2.54)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "power:+3V3"
 			(power)
 			(pin_names
@@ -2536,29 +2623,61 @@
 	)
 	(text "0x48\n"
 		(exclude_from_sim no)
-		(at 150.368 119.888 0)
+		(at 116.586 159.258 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 		)
-		(uuid "8fdbfbb7-475a-4b87-9752-dad4e7fb83a4")
+		(uuid "0ae68072-50e6-4c38-b9f6-51c6bc179e20")
+	)
+	(text "0x4A\n\n"
+		(exclude_from_sim no)
+		(at 119.38 169.926 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "171c9469-4753-4ad3-ae4a-2ffef6c8c74f")
 	)
 	(text "0x49\n\n"
 		(exclude_from_sim no)
-		(at 135.636 125.984 0)
+		(at 129.794 154.94 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 		)
-		(uuid "c9f591ac-3612-44ca-8ed8-189854d4817c")
+		(uuid "c0845291-1f08-4bbe-8f31-2dacb7adf982")
+	)
+	(text "0x4B\n\n"
+		(exclude_from_sim no)
+		(at 119.634 179.07 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "e0378022-0705-4350-a7e1-2a3e15333c5a")
 	)
 	(junction
 		(at 46.99 46.99)
 		(diameter 1.016)
 		(color 0 0 0 0)
 		(uuid "15626b67-5560-4aee-bff8-5ca1f00391b2")
+	)
+	(junction
+		(at 113.03 152.4)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "16ebb0b6-89ba-4e9a-a0fe-31e8a5cf37e6")
+	)
+	(junction
+		(at 113.03 166.37)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "1b591103-2a88-477b-bea1-5a2e528c9342")
 	)
 	(junction
 		(at 101.6 90.17)
@@ -2640,6 +2759,16 @@
 	)
 	(wire
 		(pts
+			(xy 113.03 166.37) (xy 115.57 166.37)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0284b3be-6b61-4cb7-a5df-9328f523579f")
+	)
+	(wire
+		(pts
 			(xy 38.1 29.21) (xy 38.1 30.48)
 		)
 		(stroke
@@ -2647,6 +2776,16 @@
 			(type solid)
 		)
 		(uuid "0402f959-1a3c-4a9f-a8bf-16ca18792908")
+	)
+	(wire
+		(pts
+			(xy 124.46 118.11) (xy 125.73 118.11)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0574549f-b334-4f9a-aa1d-01100595fd9b")
 	)
 	(wire
 		(pts
@@ -2730,6 +2869,26 @@
 	)
 	(wire
 		(pts
+			(xy 113.03 175.26) (xy 115.57 175.26)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2551ad3b-31b4-462c-934d-6c8e10e12170")
+	)
+	(wire
+		(pts
+			(xy 102.87 152.4) (xy 113.03 152.4)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "28a7d1d0-d9e7-4ea0-9241-755791de2c5c")
+	)
+	(wire
+		(pts
 			(xy 215.9 87.63) (xy 215.9 97.79)
 		)
 		(stroke
@@ -2770,6 +2929,16 @@
 	)
 	(wire
 		(pts
+			(xy 125.73 152.4) (xy 127 152.4)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3b7a12b8-a11e-4c1d-8289-b2645366fbef")
+	)
+	(wire
+		(pts
 			(xy 217.17 107.95) (xy 215.9 107.95)
 		)
 		(stroke
@@ -2777,16 +2946,6 @@
 			(type solid)
 		)
 		(uuid "3ddcf4a8-d33a-4360-8ba4-5604443d95f5")
-	)
-	(wire
-		(pts
-			(xy 138.43 121.92) (xy 138.43 125.73)
-		)
-		(stroke
-			(width 0)
-			(type solid)
-		)
-		(uuid "404e75a1-de1f-457e-9c4c-ad69ddef6e38")
 	)
 	(wire
 		(pts
@@ -2890,16 +3049,6 @@
 	)
 	(wire
 		(pts
-			(xy 144.78 118.11) (xy 147.32 118.11)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "5f05df41-71c1-46d0-be5a-8bb54a2585bd")
-	)
-	(wire
-		(pts
 			(xy 96.52 34.29) (xy 100.33 34.29)
 		)
 		(stroke
@@ -2960,6 +3109,16 @@
 	)
 	(wire
 		(pts
+			(xy 128.27 166.37) (xy 123.19 166.37)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7ff4be1a-361f-40e5-9228-0ced358df78b")
+	)
+	(wire
+		(pts
 			(xy 38.1 46.99) (xy 38.1 48.26)
 		)
 		(stroke
@@ -2977,6 +3136,16 @@
 			(type solid)
 		)
 		(uuid "858eeea4-5441-4324-9c5f-034bc3ca17e6")
+	)
+	(wire
+		(pts
+			(xy 123.19 175.26) (xy 128.27 175.26)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "862e969d-2b87-4ec6-99e1-53642571e617")
 	)
 	(wire
 		(pts
@@ -3080,6 +3249,16 @@
 	)
 	(wire
 		(pts
+			(xy 119.38 156.21) (xy 119.38 160.02)
+		)
+		(stroke
+			(width 0)
+			(type solid)
+		)
+		(uuid "a488f4bc-7c92-412b-b238-78f9f98e8ba0")
+	)
+	(wire
+		(pts
 			(xy 92.71 100.33) (xy 101.6 100.33)
 		)
 		(stroke
@@ -3157,6 +3336,16 @@
 			(type solid)
 		)
 		(uuid "ca394b16-ad60-46e3-b42e-314bf8ca5f62")
+	)
+	(wire
+		(pts
+			(xy 113.03 152.4) (xy 113.03 166.37)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cb15495e-1e94-4b05-bfac-74bf4539477a")
 	)
 	(wire
 		(pts
@@ -3260,6 +3449,16 @@
 	)
 	(wire
 		(pts
+			(xy 113.03 166.37) (xy 113.03 175.26)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e179ea1b-5443-469b-bebf-83bf0a41946f")
+	)
+	(wire
+		(pts
 			(xy 101.6 90.17) (xy 101.6 91.44)
 		)
 		(stroke
@@ -3317,16 +3516,6 @@
 			(type default)
 		)
 		(uuid "f1c48016-1276-488d-8563-2f8702c0d3c2")
-	)
-	(wire
-		(pts
-			(xy 124.46 118.11) (xy 132.08 118.11)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "f295345f-bb1c-4bac-8afe-b0f3a63a3615")
 	)
 	(wire
 		(pts
@@ -3408,16 +3597,6 @@
 		)
 		(uuid "4274182d-49c0-4cb9-9e01-d347961406d6")
 	)
-	(label "+3V3"
-		(at 147.32 118.11 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "4ddb54f8-f65b-479a-94f6-8deb1bb7bb54")
-	)
 	(label "SDA"
 		(at 125.73 115.57 0)
 		(effects
@@ -3468,6 +3647,16 @@
 		)
 		(uuid "8ecef23e-267a-442a-a647-a2f0594f1bd5")
 	)
+	(label "ADDR"
+		(at 102.87 152.4 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "92a4aec1-97ec-45db-9c30-329fda4b06aa")
+	)
 	(label "AIN3"
 		(at 102.87 118.11 180)
 		(effects
@@ -3487,6 +3676,16 @@
 			(justify right bottom)
 		)
 		(uuid "9c432282-8c68-4afe-9c69-77d209333027")
+	)
+	(label "+3V3"
+		(at 127 152.4 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "a38628d6-152b-4c94-9d1b-9698a9451ffa")
 	)
 	(label "ALERT{slash}RDY"
 		(at 130.81 107.95 0)
@@ -3508,15 +3707,15 @@
 		)
 		(uuid "beb3617d-fdc2-43f2-8884-8162fbedc582")
 	)
-	(label "GND"
-		(at 138.43 125.73 0)
+	(label "SCL"
+		(at 128.27 175.26 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 			(justify left bottom)
 		)
-		(uuid "c5c73b28-5090-4972-a851-fe6e8981ceae")
+		(uuid "c97baf04-d886-48d0-a44c-16de157c9a07")
 	)
 	(label "ADDR"
 		(at 125.73 118.11 0)
@@ -3537,6 +3736,16 @@
 			(justify right bottom)
 		)
 		(uuid "dc561b74-3e64-4bbb-a095-250afee28be4")
+	)
+	(label "SDA"
+		(at 128.27 166.37 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "e40a5891-f34e-4052-ada9-906c084bdcf2")
 	)
 	(label "SCL"
 		(at 248.92 100.33 180)
@@ -3567,6 +3776,16 @@
 			(justify right bottom)
 		)
 		(uuid "fba0b19e-26bb-4345-802f-b3762fb9cbf3")
+	)
+	(label "GND"
+		(at 119.38 160.02 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "fc2d1a59-c190-4a42-af20-af2514da3617")
 	)
 	(symbol
 		(lib_id "power:GND")
@@ -4546,7 +4765,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "00000000-0000-0000-0000-00005deb9c07")
-		(property "Reference" "J2"
+		(property "Reference" "J4"
 			(at 224.2312 101.3714 0)
 			(effects
 				(font
@@ -4625,7 +4844,7 @@
 		(instances
 			(project "TFI2CADC01"
 				(path "/6fb6882a-7dc1-405c-817c-bb67bd492583"
-					(reference "J2")
+					(reference "J4")
 					(unit 1)
 				)
 			)
@@ -4848,15 +5067,15 @@
 	)
 	(symbol
 		(lib_id "Jumper:Jumper_3_Bridged12")
-		(at 138.43 118.11 0)
+		(at 119.38 152.4 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom no)
 		(on_board yes)
 		(dnp no)
 		(uuid "141e2b1c-1997-41cb-a74f-b9f008338f76")
-		(property "Reference" "JP5"
-			(at 138.43 114.808 0)
+		(property "Reference" "JP1"
+			(at 119.38 149.098 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4864,15 +5083,16 @@
 			)
 		)
 		(property "Value" "AddresSelect"
-			(at 138.43 112.268 0)
+			(at 119.38 146.558 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(property "Footprint" "Jumper:SolderJumper-3_P1.3mm_Bridged12_Pad1.0x1.5mm_NumberLabels"
-			(at 138.43 118.11 0)
+			(at 119.38 152.4 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4881,7 +5101,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 138.43 118.11 0)
+			(at 119.38 152.4 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4890,7 +5110,7 @@
 			)
 		)
 		(property "Description" "Jumper, 3-pole, pins 1+2 closed/bridged"
-			(at 138.43 118.11 0)
+			(at 119.38 152.4 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4910,7 +5130,75 @@
 		(instances
 			(project "TFI2CADC01"
 				(path "/6fb6882a-7dc1-405c-817c-bb67bd492583"
-					(reference "JP5")
+					(reference "JP1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_name "SMD_JUMPER_2")
+		(lib_id "e-radionica.com schematics:SMD_JUMPER")
+		(at 119.38 166.37 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "1b00a631-55d1-4099-8869-c71fa97eb3cc")
+		(property "Reference" "JP2"
+			(at 119.38 164.465 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "0x4A"
+			(at 119.38 168.275 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "Jumper:SolderJumper-2_P1.3mm_Open_TrianglePad1.0x1.5mm"
+			(at 119.38 166.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 119.38 166.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 119.38 166.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "6a44f930-0b0d-4c7d-8484-891645c38b61")
+		)
+		(pin "2"
+			(uuid "abf8b549-d70a-4c6d-a761-4579915e138c")
+		)
+		(instances
+			(project "TFI2CADC01"
+				(path "/6fb6882a-7dc1-405c-817c-bb67bd492583"
+					(reference "JP2")
 					(unit 1)
 				)
 			)
@@ -5755,6 +6043,74 @@
 		)
 	)
 	(symbol
+		(lib_name "SMD_JUMPER_2")
+		(lib_id "e-radionica.com schematics:SMD_JUMPER")
+		(at 119.38 175.26 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "ad5a4407-a82a-4458-8aa4-e26dc5fee6a8")
+		(property "Reference" "JP3"
+			(at 119.38 173.355 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "0x4B"
+			(at 119.38 177.165 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "Jumper:SolderJumper-2_P1.3mm_Open_TrianglePad1.0x1.5mm"
+			(at 119.38 175.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 119.38 175.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 119.38 175.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "bd7eda89-a62a-47c8-9a08-653f0d7dcbed")
+		)
+		(pin "2"
+			(uuid "7dab4307-3020-4abd-84f0-67a1f4678012")
+		)
+		(instances
+			(project "TFI2CADC01"
+				(path "/6fb6882a-7dc1-405c-817c-bb67bd492583"
+					(reference "JP3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Connector:TestPoint")
 		(at 218.44 121.92 270)
 		(unit 1)
@@ -6026,7 +6382,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "cb19bc52-bc73-4faa-b1b5-9d6fa377e0e1")
-		(property "Reference" "J3"
+		(property "Reference" "J5"
 			(at 263.6012 101.3714 0)
 			(effects
 				(font
@@ -6105,7 +6461,7 @@
 		(instances
 			(project "TFI2CADC01"
 				(path "/6fb6882a-7dc1-405c-817c-bb67bd492583"
-					(reference "J3")
+					(reference "J5")
 					(unit 1)
 				)
 			)
