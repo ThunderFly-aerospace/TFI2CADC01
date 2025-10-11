@@ -3419,17 +3419,6 @@
 			(layer "F.CrtYd")
 			(uuid "56b8b184-dc31-448f-84e3-de20cbfb0e18")
 		)
-		(fp_text user "${REFERENCE}"
-			(at 0 0 90)
-			(layer "F.Fab")
-			(uuid "a299c7bc-aa31-41aa-ba22-567df12166e5")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
 		(pad "1" smd rect
 			(at 0 -4.1)
 			(size 2.51 1)
@@ -6687,45 +6676,6 @@
 			(pts
 				(xy 142.17 109.01) (xy 141.74 109.22) (xy 141.86 109.75) (xy 142.85 109.76) (xy 142.98 109.39) (xy 142.13 109.070185)
 				(xy 142.12 109.070185)
-			)
-		)
-	)
-	(zone
-		(net 0)
-		(net_name "")
-		(layer "F.Cu")
-		(uuid "a7bccfa9-ecc2-4e79-b760-4cd3e232e7ce")
-		(name "1")
-		(hatch edge 0.5)
-		(connect_pads yes
-			(clearance 0)
-		)
-		(min_thickness 0.25)
-		(filled_areas_thickness no)
-		(keepout
-			(tracks allowed)
-			(vias allowed)
-			(pads allowed)
-			(copperpour not_allowed)
-			(footprints allowed)
-		)
-		(placement
-			(enabled no)
-			(sheetname "/")
-		)
-		(fill
-			(thermal_gap 0.5)
-			(thermal_bridge_width 0.5)
-			(island_removal_mode 1)
-			(island_area_min 10)
-		)
-		(polygon
-			(pts
-				(xy 151.588921 102.078618) (xy 152.19 102.38) (xy 152.93 102.078618) (xy 153.56 102.48) (xy 153.71 103.03)
-				(xy 154.57 104) (xy 154.53 105.1) (xy 154.06 105.04) (xy 153.81 104.82) (xy 153.41 104.78) (xy 153.04 104.6)
-				(xy 152.93 104.14) (xy 153.11 103.78) (xy 153.04 103.33) (xy 152.6 103.2) (xy 152.29 103.45) (xy 152.14 103.88)
-				(xy 151.81 104.43) (xy 151.588921 104.91) (xy 151.588921 105.33) (xy 151.06 105.17) (xy 150.89 104.73)
-				(xy 150.89 102.84) (xy 150.95 102.37) (xy 151.39 102.078618)
 			)
 		)
 	)
