@@ -2,7 +2,7 @@
 <export version="E">
   <design>
     <source>/github/workspace/hw/sch_pcb/TFI2CADC01.kicad_sch</source>
-    <date>2025-10-11T18:07:32+0000</date>
+    <date>2025-10-11T18:39:04+0000</date>
     <tool>Eeschema 9.0.1+1</tool>
     <sheet number="1" name="/" tstamps="/">
       <title_block>
@@ -620,7 +620,7 @@
     </library>
   </libraries>
   <nets>
-    <net code="1" name="+3V3" class="Default">
+    <net code="1" name="+3V3" class="Power,Default">
       <node ref="C3" pin="1" pintype="passive"/>
       <node ref="C4" pin="1" pintype="passive"/>
       <node ref="JP1" pin="3" pinfunction="B" pintype="passive"/>
@@ -630,7 +630,7 @@
       <node ref="U1" pin="5" pinfunction="VOUT" pintype="power_out"/>
       <node ref="U2" pin="8" pinfunction="VDD" pintype="power_in"/>
     </net>
-    <net code="2" name="+5V" class="Default">
+    <net code="2" name="+5V" class="Power,Default">
       <node ref="C1" pin="1" pintype="passive"/>
       <node ref="C2" pin="1" pintype="passive"/>
       <node ref="D2" pin="1" pinfunction="K" pintype="passive"/>
@@ -679,7 +679,7 @@
       <node ref="R3" pin="2" pintype="passive"/>
       <node ref="U2" pin="9" pinfunction="SDA" pintype="bidirectional"/>
     </net>
-    <net code="11" name="GND" class="Default">
+    <net code="11" name="GND" class="Power,Default">
       <node ref="C1" pin="2" pintype="passive"/>
       <node ref="C2" pin="2" pintype="passive"/>
       <node ref="C3" pin="2" pintype="passive"/>
