@@ -2,7 +2,7 @@
 <export version="E">
   <design>
     <source>/github/workspace/hw/sch_pcb/TFI2CADC01.kicad_sch</source>
-    <date>2025-10-11T18:39:04+0000</date>
+    <date>2025-10-12T19:03:57+0000</date>
     <tool>Eeschema 9.0.1+1</tool>
     <sheet number="1" name="/" tstamps="/">
       <title_block>
@@ -106,11 +106,11 @@
     </comp>
     <comp ref="D1">
       <value>LED GREEN</value>
-      <footprint>Mlab_D:LED_1206_mill</footprint>
+      <footprint>Mlab_D:LED_0805</footprint>
       <fields>
         <field name="UST_id"/>
         <field name="UST_ID">60d582331287500165f859d0</field>
-        <field name="Footprint">Mlab_D:LED_1206_mill</field>
+        <field name="Footprint">Mlab_D:LED_0805</field>
         <field name="Datasheet"/>
         <field name="Description"/>
       </fields>
@@ -145,11 +145,11 @@
     </comp>
     <comp ref="D3">
       <value>LED ORANGE</value>
-      <footprint>Mlab_D:LED_1206_mill</footprint>
+      <footprint>Mlab_D:LED_0805</footprint>
       <fields>
         <field name="UST_id"/>
         <field name="UST_ID">60d582331287500165f859d0</field>
-        <field name="Footprint">Mlab_D:LED_1206_mill</field>
+        <field name="Footprint">Mlab_D:LED_0805</field>
         <field name="Datasheet"/>
         <field name="Description"/>
       </fields>
