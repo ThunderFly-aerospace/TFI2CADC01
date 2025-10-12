@@ -5895,7 +5895,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Mlab_D:LED_1206_mill"
+		(property "Footprint" "Mlab_D:LED_0805"
 			(at 153.67 107.95 0)
 			(effects
 				(font
@@ -6108,7 +6108,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Mlab_D:LED_1206_mill"
+		(property "Footprint" "Mlab_D:LED_0805"
 			(at 38.1 43.18 0)
 			(effects
 				(font
