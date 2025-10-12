@@ -2907,15 +2907,26 @@
 			(embedded_fonts no)
 		)
 	)
-	(text "0x48\n"
+	(text "0x48 (default)\n"
 		(exclude_from_sim no)
-		(at 115.57 146.558 0)
+		(at 123.19 151.13 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "0ae68072-50e6-4c38-b9f6-51c6bc179e20")
+	)
+	(text "I2C address selection"
+		(exclude_from_sim no)
+		(at 119.38 142.24 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 		)
-		(uuid "0ae68072-50e6-4c38-b9f6-51c6bc179e20")
+		(uuid "0e11c915-0db6-46bb-b8af-c0b9b7d13e7e")
 	)
 	(text "0x4B\n\n\n\n\n"
 		(exclude_from_sim no)
@@ -2929,11 +2940,12 @@
 	)
 	(text "0x49\n\n"
 		(exclude_from_sim no)
-		(at 125.984 159.004 0)
+		(at 123.19 156.21 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
+			(justify left)
 		)
 		(uuid "c0845291-1f08-4bbe-8f31-2dacb7adf982")
 	)
@@ -6420,7 +6432,7 @@
 			)
 		)
 		(property "Value" "ALERT/RDY"
-			(at 145.034 99.314 0)
+			(at 147.32 96.52 0)
 			(effects
 				(font
 					(size 1.27 1.27)
