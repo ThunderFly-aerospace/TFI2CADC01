@@ -2,8 +2,8 @@
 <export version="E">
   <design>
     <source>/github/workspace/hw/sch_pcb/TFI2CADC01.kicad_sch</source>
-    <date>2025-10-15T17:08:04+0000</date>
-    <tool>Eeschema 9.0.1+1</tool>
+    <date>2025-11-29T00:43:25+0000</date>
+    <tool>Eeschema 9.0.6+1</tool>
     <sheet number="1" name="/" tstamps="/">
       <title_block>
         <title>TFI2CADC01A</title>
@@ -218,10 +218,11 @@
     <comp ref="JP1">
       <value>~</value>
       <footprint>Jumper:SolderJumper-3_P1.3mm_Bridged12_Pad1.0x1.5mm_NumberLabels</footprint>
+      <datasheet>~</datasheet>
       <description>3-pole Solder Jumper, pins 1+2 closed/bridged</description>
       <fields>
         <field name="Footprint">Jumper:SolderJumper-3_P1.3mm_Bridged12_Pad1.0x1.5mm_NumberLabels</field>
-        <field name="Datasheet"/>
+        <field name="Datasheet">~</field>
         <field name="Description">3-pole Solder Jumper, pins 1+2 closed/bridged</field>
       </fields>
       <libsource lib="Jumper" part="SolderJumper_3_Bridged12" description="3-pole Solder Jumper, pins 1+2 closed/bridged"/>
@@ -236,10 +237,11 @@
     <comp ref="JP2">
       <value>SolderJumper_2_Open</value>
       <footprint>Jumper:SolderJumper-2_P1.3mm_Open_Pad1.0x1.5mm</footprint>
+      <datasheet>~</datasheet>
       <description>Solder Jumper, 2-pole, open</description>
       <fields>
         <field name="Footprint">Jumper:SolderJumper-2_P1.3mm_Open_Pad1.0x1.5mm</field>
-        <field name="Datasheet"/>
+        <field name="Datasheet">~</field>
         <field name="Description">Solder Jumper, 2-pole, open</field>
       </fields>
       <libsource lib="Jumper" part="SolderJumper_2_Open" description="Solder Jumper, 2-pole, open"/>
@@ -334,10 +336,11 @@
     <comp ref="T1">
       <value>ALERT/RDY</value>
       <footprint>TestPoint:TestPoint_Keystone_5015_Micro_Mini</footprint>
+      <datasheet>~</datasheet>
       <description>test point</description>
       <fields>
         <field name="Footprint">TestPoint:TestPoint_Keystone_5015_Micro_Mini</field>
-        <field name="Datasheet"/>
+        <field name="Datasheet">~</field>
         <field name="Description">test point</field>
       </fields>
       <libsource lib="Connector" part="TestPoint" description="test point"/>
