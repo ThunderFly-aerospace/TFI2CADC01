@@ -13,5 +13,5 @@ Component,Description,Part,References,Value,Footprint,Quantity Per PCB,Datasheet
 12,Resistor,R,R4,4k7,R_0603_1608Metric,1,~,5c70984512875079b91f8962
 13,Resistor,R,R2,10k,R_0603_1608Metric,1,~,5c70984512875079b91f8962
 14,Resistor,R,R3,10k,R_0603_1608Metric,1,~,5c70984512875079b91f8962
-15,"Ultra-Small, Low-Power, I2C-Compatible, 860-SPS, 16-Bit ADCs With Internal Reference, Oscillator, and Programmable Comparator, VSSOP-10",ADS1115IDGS,U2,ADS1115IDGS,TSSOP-10_3x3mm_P0.5mm,1,http://www.ti.com/lit/ds/symlink/ads1113.pdf,
+15,"Ultra-Small, Low-Power, I2C-Compatible, 860-SPS, 16-Bit ADCs With Internal Reference, Oscillator, and Programmable Comparator, VSSOP-10",ADS1115IDGS,U2,ADS1115IDGS,VSSOP-10_3x3mm_P0.5mm,1,http://www.ti.com/lit/ds/symlink/ads1113.pdf,6934a81dea235ce78ba25ac5
 16,"300mA Low-dropout Voltage Regulator, Vout 3.3V, Vin up to 5.5V, SOT-23",MIC5504-3.3YM5,U1,MIC5504-3.3YM5,SOT-23-5,1,http://ww1.microchip.com/downloads/en/DeviceDoc/MIC550X.pdf,5c7255e81287500b4e112ea2

@@ -2,7 +2,7 @@
 <export version="E">
   <design>
     <source>/github/workspace/hw/sch_pcb/TFI2CADC01.kicad_sch</source>
-    <date>2025-12-06T19:54:50+0000</date>
+    <date>2025-12-06T22:15:49+0000</date>
     <tool>Eeschema 9.0.6+1</tool>
     <sheet number="1" name="/" tstamps="/">
       <title_block>
@@ -354,15 +354,17 @@
     </comp>
     <comp ref="U2">
       <value>ADS1115IDGS</value>
-      <footprint>Package_SO:TSSOP-10_3x3mm_P0.5mm</footprint>
+      <footprint>Package_SO:VSSOP-10_3x3mm_P0.5mm</footprint>
       <datasheet>http://www.ti.com/lit/ds/symlink/ads1113.pdf</datasheet>
       <description>Ultra-Small, Low-Power, I2C-Compatible, 860-SPS, 16-Bit ADCs With Internal Reference, Oscillator, and Programmable Comparator, VSSOP-10</description>
       <fields>
-        <field name="Footprint">Package_SO:TSSOP-10_3x3mm_P0.5mm</field>
+        <field name="UST_ID">6934a81dea235ce78ba25ac5</field>
+        <field name="Footprint">Package_SO:VSSOP-10_3x3mm_P0.5mm</field>
         <field name="Datasheet">http://www.ti.com/lit/ds/symlink/ads1113.pdf</field>
         <field name="Description">Ultra-Small, Low-Power, I2C-Compatible, 860-SPS, 16-Bit ADCs With Internal Reference, Oscillator, and Programmable Comparator, VSSOP-10</field>
       </fields>
       <libsource lib="Analog_ADC" part="ADS1115IDGS" description="Ultra-Small, Low-Power, I2C-Compatible, 860-SPS, 16-Bit ADCs With Internal Reference, Oscillator, and Programmable Comparator, VSSOP-10"/>
+      <property name="UST_ID" value="6934a81dea235ce78ba25ac5"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="TFI2CADC01.kicad_sch"/>
       <property name="ki_keywords" value="16 bit 4 channel I2C ADC"/>
