@@ -1,11 +1,9 @@
-# TFI2CADC01A — I²C 16‑bit ADC module (Pixhawk compatible)
+# TFI2CADC01A — I²C 16‑bit ADC for UAVs
 
 Compact 4‑channel analog‑to‑digital converter module for Pixhawk‑class autopilots and ThunderFly form‑factor carrier boards. Based on [TI ADS1115 (16‑bit Σ‑Δ ADC)](https://www.ti.com/lit/ds/symlink/ads1115.pdf?ts=1741234332539), powered from the I²C bus. Dual JST‑GH I²C ports support in‑line daisy‑chaining.
 
 ![TFI2CADC01 top view](doc/gen/img/TFI2CADC01-top.png)
 ![TFI2CADC01 bottom view](doc/gen/img/TFI2CADC01-bottom.png)
-
-
 
 ## Key features
 

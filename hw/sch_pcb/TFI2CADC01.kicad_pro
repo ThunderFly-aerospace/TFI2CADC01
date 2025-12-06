@@ -250,7 +250,24 @@
     "equivalence_files": []
   },
   "erc": {
-    "erc_exclusions": [],
+    "erc_exclusions": [
+      [
+        "pin_not_driven|495300|1041400|43052e9b-ba0b-4503-9f2e-2e8f51e042b2|00000000-0000-0000-0000-000000000000|/6fb6882a-7dc1-405c-817c-bb67bd492583|/6fb6882a-7dc1-405c-817c-bb67bd492583|",
+        ""
+      ],
+      [
+        "pin_not_driven|495300|1066800|fa312481-d442-4401-9618-313b49a71642|00000000-0000-0000-0000-000000000000|/6fb6882a-7dc1-405c-817c-bb67bd492583|/6fb6882a-7dc1-405c-817c-bb67bd492583|",
+        ""
+      ],
+      [
+        "pin_not_driven|622300|1041400|2c08def4-e07d-48e6-b09f-9668303649de|00000000-0000-0000-0000-000000000000|/6fb6882a-7dc1-405c-817c-bb67bd492583|/6fb6882a-7dc1-405c-817c-bb67bd492583|",
+        ""
+      ],
+      [
+        "pin_not_driven|622300|1066800|d32d6390-2900-4cd7-a8cd-d75a8c9cc6cd|00000000-0000-0000-0000-000000000000|/6fb6882a-7dc1-405c-817c-bb67bd492583|/6fb6882a-7dc1-405c-817c-bb67bd492583|",
+        ""
+      ]
+    ],
     "meta": {
       "version": 0
     },
@@ -608,12 +625,30 @@
           "label": "Datasheet",
           "name": "Datasheet",
           "show": true
+        },
+        {
+          "group_by": false,
+          "label": "UST_ID",
+          "name": "UST_ID",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Description",
+          "name": "Description",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "#",
+          "name": "${ITEM_NUMBER}",
+          "show": false
         }
       ],
       "filter_string": "",
       "group_symbols": true,
       "include_excluded_from_bom": true,
-      "name": "Default Editing",
+      "name": "",
       "sort_asc": true,
       "sort_field": "Reference"
     },
