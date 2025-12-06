@@ -1,20 +1,20 @@
-# TFI2CADC01A — I²C 16‑bit ADC for UAVs
+# TFI2CADC01 — I²C 16‑bit ADC for UAVs
 
-Compact 4‑channel analog‑to‑digital converter module for Pixhawk‑class autopilots and ThunderFly form‑factor carrier boards. Based on [TI ADS1115 (16‑bit Σ‑Δ ADC)](https://www.ti.com/lit/ds/symlink/ads1115.pdf?ts=1741234332539), powered from the I²C bus. Dual JST‑GH I²C ports support in‑line daisy‑chaining.
+Compact 4‑channel analog‑to‑digital converter module for Pixhawk‑class autopilots and ThunderFly form‑factor carrier boards. Based on [TI ADS1115 (16‑bit Σ‑Δ ADC)](https://www.ti.com/lit/ds/symlink/ads1115.pdf?ts=1741234332539). Dual Pixhawk JST‑GH I²C ports support in‑line daisy‑chaining.
 
 ![TFI2CADC01 top view](doc/gen/img/TFI2CADC01-top.png)
 ![TFI2CADC01 bottom view](doc/gen/img/TFI2CADC01-bottom.png)
 
 ## Key features
 
-* 4 × single‑ended inputs (**AIN0…AIN3**) up to VDD range (0–3.3 V)
-* 16‑bit ADC (**ADS1115IDGS**) with programmable gain amplifier (PGA)
+* 4 × single‑ended inputs (AIN0…AIN3) up to VDD range (0–3.3 V)
+* 16‑bit ADC (ADS1115IDGS) with programmable gain amplifier (PGA)
 * I²C interface, 100/400 kHz compliant; on‑board 4.7 kΩ pull‑ups to 3.3 V
-* **ADDR** solder-bridge for selectable I²C address (default **0x48**)
-* **ALERT/RDY** interrupt output (optional test‑point)
-* Bus‑powered from **+5 V**; on‑board LDO to internal 3.3 V
+* ADDR solder-bridge for selectable I²C address (default 0x48)
+* ALERT/RDY interrupt output (optional test‑point)
+* Bus‑powered from +5 V; on‑board LDO to internal 3.3 V
 * Input/rail protection and status LEDs (PWR, activity)
-* Two **JST‑GH 4‑pin** I²C ports for Pixhawk; one **2×4 header** for access to analog inputs and ground
+* Two JST‑GH 4‑pin I²C ports for Pixhawk; one 2×4 header for access to analog inputs and ground
 
 ## Electrical
 
@@ -40,7 +40,7 @@ Both ports are wired in parallel for pass‑through/daisy‑chain.
 
 ### I²C addressing
 
-The **ADDR** pin is placed on the PCB to select one of the ADS1115 base addresses. Default assembly is **0x48**.
+Default assembly is 0x48.
 
 | ADDR input  | 7‑bit I²C address |
 | ----------- | ----------------- |
@@ -49,11 +49,11 @@ The **ADDR** pin is placed on the PCB to select one of the ADS1115 base addresse
 | SDA         | 0x4A              |
 | SCL         | 0x4B              |
 
-> The board provides pads/jumper position for changing the ADDR strap. See silkscreen near **ADDR**.
+> The board provides pads/jumper position for changing the address. See silkscreen near ADDR.
 
 ## Jumpers / test points
 
-* **T1 (ALERT/RDY):** routes the ADS1115 ALERT/RDY pin to a test pad for optional host interrupt. Leave open if unused.
+* **T1 (ALERT/RDY):** routes the ALERT/RDY pin to a test pad for optional host interrupt. Leave open if unused.
 * **JP2/JP2:** board address option tie (factory) to 3.3 V.
 
 ## LEDs
@@ -64,10 +64,10 @@ The **ADDR** pin is placed on the PCB to select one of the ADS1115 base addresse
 
 ## Typical wiring (Pixhawk)
 
-1. Plug either JST‑GH port to a Pixhawk **I2C** port (5 V provided by autopilot).
+1. Plug either JST‑GH port to a Pixhawk I2C port (5 V provided by autopilot).
 2. Daisy‑chain additional I²C node from the second JST‑GH if needed.
-3. Connect sensors to **AIN0…AIN3** via J1, or wire your signals to the corresponding pads.
-4. (Optional) Strap **ADDR** for a non‑default address if multiple ADS1115 are present.
+3. Connect sensors to AIN0…AIN3 via J1, or wire your signals to the corresponding pads.
+4. (Optional) Strap ADDR and solder for a non‑default address if multiple TFI2CADC01 are present on the same I2C bus.
 
 ## Software notes (ADS1115)
 
@@ -95,7 +95,7 @@ PCB follows the **ThunderFly form factor** for avionics modules (mounting & stac
 
 ## Availability and Customization
 
-The **TFI2CADC01A** is available from ThunderFly s.r.o. For a commercial quotation, contact us at [sale@thunderfly.cz](mailto:sale@thunderfly.cz) or shop via our Lectronz or Tindie store.
+The TFI2CADC01 is available from ThunderFly s.r.o. For a commercial quotation, contact us at [sale@thunderfly.cz](mailto:sale@thunderfly.cz) or shop via our Lectronz or Tindie store.
 
 We also offer application‑specific modifications on request. Typical options include alternative input scaling (dividers/shunts), connector or cable variations, pre‑strapped I²C addresses, and simple mounting adaptations. Basic changes are usually provided at no additional cost with an estimated lead time of approximately three weeks.
 
